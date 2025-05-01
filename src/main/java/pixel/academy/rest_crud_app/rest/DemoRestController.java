@@ -12,6 +12,11 @@ public class DemoRestController {
     // adaugam codul pentru endpoint-ul /hello
     @GetMapping("/hello")
     public String sayHello() {
+
         return "Hello World!!!!!";
     }
+
+    // comentariu
+
+
 }
